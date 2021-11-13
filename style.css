@@ -15,13 +15,13 @@ body {
 }
 
 h1 {
-  font-size: 30px;
-  margin: 8px auto;
+  font-size: 28px;
+  margin: 6px auto;
 }
 
 h2 {
-  font-size: 24px;
-  margin: 6px auto;
+  font-size: 22px;
+  margin: 5px auto;
 }
 
 .header {
@@ -50,9 +50,10 @@ h2 {
 
 .map_container {
   width: 100%;
-  height: 800px;
+  height: 780px;
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
   display: block;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -109,6 +110,54 @@ h2 {
 .explain {
   width: 70%;
   margin: 0 auto;
+  padding-bottom: 12px;
+  background-color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #303030;
+  color: #ffffff;
+}
+
+.footer .footer__inner {
+  margin: 0px auto;
+  padding: 0px auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer__inner .author, .footer .footer__inner .github {
+  width: 25%;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.footer .footer__inner .copyright {
+  width: 100%;
+  margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 0.8em;
+}
+
+.footer a {
+  color: #A9F5F2;
+}
+
+.footer a :hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

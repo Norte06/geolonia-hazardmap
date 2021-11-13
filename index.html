@@ -17,7 +17,7 @@
 
 <body>
   <div class="container">
-    <div class="header">
+    <section class="header">
       <div class="main-header">
         <h1>洪水ハザードマップと背景地図 〜使いやすい背景地図は？〜</h1>
         <p>国土交通省の洪水ハザードマップ（洪水浸水想定区域（想定最大規模））の使いやすさを調べるために、様々な背景地図の上にハザードマップを重ねて、見やすさを比較できるようにしました。ご自身にとって使いやすいハザードマップを選んでみて下さい。</p>
@@ -28,9 +28,9 @@
       <div class="legend">
         <img src="shinsui_legend2-1.png" alt="depth colorbar" id="depth_colorbar" height="160px">
       </div>
-    </div>
+    </section>
 
-    <div class="map_container">
+    <section class="map_container">
       <div class="map_left">
         <div class="cell">
           <h2>国土地理院　淡色地図</h2>
@@ -52,9 +52,9 @@
           <div id='map4' data-lat="35.8" data-lng="139.6" data-zoom="9" data-marker="off" data-style="geolonia/midnight"></div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="explain">
+    <section class="explain">
       <h2>＜参照＞</h2>
       <ul>
         <li><a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html" target="_blank" rel="noopener noreferrer">国土交通省 ハザードマップポータルサイト（国管理・都道府県管理河川）</a></li>
@@ -62,7 +62,21 @@
         <li><a href="https://maps.gsi.go.jp/development/ichiran.html#hillshademap" target="_blank" rel="noopener noreferrer">国土地理院 陰影起伏図</a></li>
         <li><a href="https://docs.geolonia.com/javascript-api/" target="_blank" rel="noopener noreferrer">Geolonia JavaScript API</a></li>
       </ul>
-    </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__inner">
+        <p class="author">
+          作者：Yuki Kita（<a href="https://twitter.com/0617north" target="_blank" rel="noopener noreferrer">Twitter</a>）
+        </p>
+        <p class="github">
+          <a href="https://github.com/Norte06/Past-Climate" target="_blank">Githubレポジトリ</a>
+        </p>
+        <p class="copyright">
+          &copy; 2021 Yuki Kita.
+        </p>
+      </div>
+    </section>
 
   </div>
 
