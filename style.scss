@@ -1,0 +1,102 @@
+$contentMaxWidth: 1200px;
+$mapHeight: 330px;
+$mapWidth: 560px;
+
+body {
+  font-family: 'Kameron', 'Noto Sans JP', sans-serif;
+  background-color: #efefef;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  width: $contentMaxWidth;
+  background-color: #ffffff;
+  display: block;
+}
+
+h1{
+  font-size: 30px;
+  margin: 8px auto;
+}
+h2{
+  font-size: 24px;
+  margin: 6px auto;
+}
+
+.header {
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+
+  & .main-header {
+    float: left;
+    width: 70%;
+    & #opacitySlider {
+      width: 36%;
+      cursor: pointer;
+    }
+  }
+  & .legend{
+    float: right;
+    width: 30%;
+    text-align: center;
+  }
+}
+
+.map_container {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  justify-content: space-between;
+
+  .map_left{
+    float: left;
+    margin: 0;
+    padding: 0 8px;
+    width: 48%;
+
+    & .cell {
+      margin-bottom: 15px;
+    }
+    & #map1{
+      height: $mapHeight;
+      width: $mapWidth;
+    }
+    & #map2{
+      height: $mapHeight;
+      width: $mapWidth;
+    }
+  }
+  .map_right {
+    float: right;
+    margin: 0;
+    padding: 0 8px;
+    width: 48%;
+
+    & .cell {
+      margin-bottom: 10px;
+    }
+    & #map3{
+      height: $mapHeight;
+      width: $mapWidth;
+    }
+    & #map4{
+      height: $mapHeight;
+      width: $mapWidth;
+    }
+  }
+}
+
+.explain {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
